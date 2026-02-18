@@ -49,7 +49,7 @@ mqtt_client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2, client_id)
 mqtt_client.on_connect = on_connect
 mqtt_client.on_message = on_message
 mqtt_client.connect(MQTT_BROKER, MQTT_PORT, 60)
-mqtt_client.loop_start()
+mqtt_client.loop_forever()
 
 # # Example using mosquitto_pub
 # mosquitto_pub -h broker.emqx.io -t my/device/led -m "on"
