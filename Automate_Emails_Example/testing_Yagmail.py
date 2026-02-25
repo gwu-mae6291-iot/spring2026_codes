@@ -9,7 +9,7 @@
 """
 
 # import yagmail
-# yag = yagmail.SMTP('cs3907.edgelab@gmail.com', 'jxoy ousb tnxz pxsl')
+# yag = yagmail.SMTP('cs3907.edgelab@gmail.com', 'plll dqml iyid vbok')
 # yag.send(contents = "Hello!")
 
 import yagmail
