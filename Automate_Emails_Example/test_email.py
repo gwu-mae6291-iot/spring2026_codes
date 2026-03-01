@@ -10,11 +10,8 @@ from time import asctime
 
 email_sender = "cs3907.edgelab@gmail.com"
 email_password = "plll dqml iyid vbok"
-# email_receiver = ["kartik.bulusu@gmail.com", "lavanyachalla@gmail.com", "bulusu@email.gwu.edu"]
-# email_receiver = ["kartik.bulusu@gmail.com", "amulvey@email.gwu.edu", "brent11@email.gwu.edu"]
 email_receiver = ["kartik.bulusu@gmail.com"]
 
-# ["nasuggsbrigety@email.gwu.edu", "marioc1@email.gwu.edu", "saikat.halder@email.gwu.edu"]
 now = str(asctime())
 
 msg = EmailMessage()
